@@ -1,5 +1,6 @@
 package main;
-import java.util.*; 
+import java.util.*;
+import java.util.Scanner;
 
 public class Calculator {
     public static void main(String[] args)
@@ -38,26 +39,27 @@ public class Calculator {
     public static int add(int x, int y)
     {
     	int result=0;
-//        write your code here 
+         result=x+y;
     	
         return result;
     }
     public static int sub(int x, int y)
     {
-    	int result=0;
-//        write your code here
+    	int result;
+    	result=0;
+      result=x-y;
         return result;
     }
     public static int mult(int x, int y)
     {
     	int result=0;
-//      write your code here        
+      result=x*y;        
     	return result;
     }
     public static int div(int x, int y)
     {
     	int result=0;
-//      write your code here
+      result=x/y;
     	return result;
     }
 
